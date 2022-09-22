@@ -11,6 +11,7 @@
     <p>Here at Wingstop we love to share our love through our food. All wings and flats are made with the best ingridients. All ingridients are imported and collected from the finest of agricultural farms.</p>
     <p>Please enter a name for the order.</p>
     Username:<input type="text" id="username" autofocus><br><br>
+    <form>
     <h3>All wings flavors</h3>
     <img src="https://static2.businessinsider.com/image/55fb02ab9dd7cc11008bb254-4752-2376/wingstop%204.jpg" alt="Barbacue chicken wings from wingstop" height="300">
     <img src="https://www.gannett-cdn.com/-mm-/ea0bc550e777294ea90ec8fb86d3ca1a392edcd6/c=0-455-5185-3384/local/-/media/2017/02/24/Westchester/Westchester/636235495835205704-mv022417wingstop03.JPG?width=3200&height=1680&fit=crop" alt="Original hot wingstop wings" height="300">
@@ -34,27 +35,35 @@
 <img src="https://thehalalfoodblog.com/wp-content/uploads/2016/06/Wingstop-22-Celery-and-Carrot-Sticks-with-Ranch-Sauce.jpg" alt="Carrot and Celery Sticks" height="250">
 <img src="https://th.bing.com/th/id/R.3436dc8db6ffd03f2a4e0643cd820153?rik=9lqFVIdLX772EA&riu=http%3a%2f%2fs3-media1.fl.yelpcdn.com%2fbphoto%2fch_L4-sRxLpxX43rql0eGg%2fls.jpg&ehk=tbebn%2b0itQK7xhezmIXAtVPhMHQvaSZ1SbfZSoJ7euc%3d&risl=&pid=ImgRaw&r=0" alt="Ranch Cup" height="200">
 <fieldset>
-    <legend><div class="number">3</div>Sides and Dips</legend>
-    <input type="checkbox" id="Sides" name="Sides"><label>Wingstop Style Fries</label>
-    <input type="checkbox" id="Sides" name="Sides"><label>Carriot and Celery Sticks</label>
-    <input type="checkbox" id="Dips" name="Dips"><label>Ranch</label>
+    <legend><div class="number">4</div>Sides</legend>
+    <input type="radio" id="Sides" name="Sides"><label>Wingstop Style Fries</label>
+    <input type="radio" id="Sides" name="Sides"><label>Carriot and Celery Sticks</label>
+    <input type="radio" id="Sides" name="Sides"><label>Mashed Potatoes</label>
+    <input type="radio" id="Sides" name="Sides"><label>Mac n Cheese</label>
 </fieldset>
 <h3>1 size drink 20 oz Wingstop Cup</h3>
 <img src="https://deliverlogic-common-assets.s3.amazonaws.com/editable/images/dinehome/menuitems/37539.jpg" alt="Drink Cup" height="260">
 <fieldset>
-    <legend><div class="number">5</div>Drinks:</legend>
+    <legend><div class="number">9</div>Drinks:</legend>
     <input type="checkbox" id="Drinks" name="Drinks"><label>Pepsi</label>
+    <input type="checkbox" id="Drinks" name="Drinks"><label>Diet Pepsi</label>
+    <input type="checkbox" id="Drinks" name="Drinks"><label>Cherry Pepsi</label>
     <input type="checkbox" id="Drinks" name="Drinks"><label>Sprite</label>
     <input type="checkbox" id="Drinks" name="Drinks"><label>Dr. Pepper</label>
+    <input type="checkbox" id="Drinks" name="Drinks"><label>Root Beer</label>
     <input type="checkbox" id="Drinks" name="Drinks"><label>Gatorate Fruit Punch</label>
     <input type="checkbox" id="Drinks" name="Drinks"><label>Strawberry Lemonade</label>
+    <input type="checkbox" id="Drinks" name="Drinks"><label>Fiji Water</label>
 </fieldset>
+<input type="reset" id="resetform" value="Reset">
+<input type="submit" id="checkout" value="Submit">
 <nav id="nav_list">
     <ul>
-        <li><a href="Submit.html">Submit Order</a></li>
         <li><a href="allergy.html">Allergy Forum(PLEASE READ)</a></li>
     </ul>
 </nav>
+</body>
+</form>
 <form id="email_form" action="subscribe.php" method="post"> <p>Please enter your e-mail address to subscribe to recieve free weekly coupons.</p> <p>E-Mail: <input type="text" id="email"></p> <p><input type="submit" id="submit" value="Subscribe"></p>
 </form>
 </body>
