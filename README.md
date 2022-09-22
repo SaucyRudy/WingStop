@@ -10,3 +10,5 @@ Added more images
 Added Menu options and images for main course, sides, and drinks
 Added working Menu selector for drinks
 Added working Menu Selector for Sides and Dips
+Added working Menu Selector for main course, also added selector for sizes
+Added submit button, added allergy forum
